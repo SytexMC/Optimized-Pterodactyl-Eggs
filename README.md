@@ -1,2 +1,2 @@
-# Optimized-Eggs
+# Optimized Eggs
 Optimized Eggs
