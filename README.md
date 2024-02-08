@@ -1,2 +1,1 @@
-# Optimized Eggs
-Optimized Eggs
+# Optimized Pterodactyl Eggs
