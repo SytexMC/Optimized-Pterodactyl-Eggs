@@ -151,41 +151,42 @@ entities:
     hatch-time: default
   spawning:
     all-chunks-are-slime-chunks: false
-  enabled: true
-    items:
-      stone: 1200
-      cobblestone: 600
-      deepslate: 1200
-      cobbled_deepslate: 600
-      netherrack: 600
-      crimson_nylium: 600
-      warped_nylium: 600
-      dirt: 600
-      dirt_path: 600
-      rooted_dirt: 600
-      coarse_dirt: 600
-      grass_block: 1200
-      sand: 600
-      red_sand: 600
-      soul_sand: 600
-      soul_soil: 600
-      gravel: 600
-      diorite: 600
-      granite: 600
-      andesite: 600
-      oak_leaves: 600
-      spruce_leaves: 600
-      birch_leaves: 600
-      jungle_leaves: 600
-      acacia_leaves: 600
-      dark_oak_leaves: 600
-      mangrove_leaves: 600
-      kelp: 600
-      bamboo: 600
-      cactus: 600
-      suger_cane: 600
-      scaffolding: 1200
-      ender_pearl: 300
+    alt-item-despawn-rate:
+      enabled: false
+      items:
+        stone: 1200  
+        cobblestone: 600
+        deepslate: 1200
+        cobbled_deepslate: 600
+        netherrack: 600
+        crimson_nylium: 600
+        warped_nylium: 600
+        dirt: 600
+        dirt_path: 600
+        rooted_dirt: 600
+        coarse_dirt: 600
+        grass_block: 1200
+        sand: 600
+        red_sand: 600
+        soul_sand: 600
+        soul_soil: 600
+        gravel: 600
+        diorite: 600
+        granite: 600
+        andesite: 600
+        oak_leaves: 600
+        spruce_leaves: 600
+        birch_leaves: 600
+        jungle_leaves: 600
+        acacia_leaves: 600
+        dark_oak_leaves: 600
+        mangrove_leaves: 600
+        kelp: 600
+        bamboo: 600
+        cactus: 600
+        suger_cane: 600
+        scaffolding: 1200
+        ender_pearl: 300
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: 20
     despawn-ranges:
