@@ -9,11 +9,16 @@ info:
 # an attempt to maintain 20 TPS. This option (defaults to true per
 # spigot/paper) can cause mobs to move fast after a lag spike.
 tps-catchup: true
+# Allows end crystals to respawn the ender dragon.
+# On servers that expect end crystal fights in the end dimension, disabling this
+# will prevent the server from performing an expensive search to attempt respawning
+# the ender dragon whenever a player places an end crystal.
+allow-end-crystal-respawn: true
 # Optimizes entity brains when
 # they're far away from the player
 dab:
   
-  enabled: true
+  enabled: false
   # This value determines how far away an entity has to be
   # from the player to start being effected by DEAR.
   start-distance: 12
@@ -32,17 +37,12 @@ dab:
 # be left enabled on most servers, but is provided as a
 # configuration option if the vanilla deviation is undesirable.
 enable-suffocation-optimization: true
-# Throttles the AI goal selector in entity inactive ticks.
-# This can improve performance by a few percent, but has minor gameplay implications.
-inactive-goal-selector-throttle: true
-# Allows end crystals to respawn the ender dragon.
-# On servers that expect end crystal fights in the end dimension, disabling this
-# will prevent the server from performing an expensive search to attempt respawning
-# the ender dragon whenever a player places an end crystal.
-allow-end-crystal-respawn: true
 # Sentry DSN for improved error logging, leave blank to disable
 # Obtain from https://sentry.io/
 sentry-dsn: ''
+# Throttles the AI goal selector in entity inactive ticks.
+# This can improve performance by a few percent, but has minor gameplay implications.
+inactive-goal-selector-throttle: false
 # These values define a entity's maximum lifespan. If an
 # entity is in this list and it has survived for longer than
 # that number of ticks, then it will be removed. Setting a value to
