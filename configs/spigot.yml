@@ -47,8 +47,7 @@ commands:
   - tellraw
   tab-complete: 0
   send-namespaced: true
-  spam-exclusions:
-  - /skill
+  spam-exclusions: []
   log: true
   silent-commandblock-console: false
 advancements:
