@@ -47,7 +47,7 @@ item-validation:
     page: 16384
     title: 8192
   book-size:
-    page-max: 2560
+    page-max: 1024
     total-multiplier: 0.98
   display-name: 8192
   lore-line: 8192
@@ -70,7 +70,7 @@ misc:
   compression-level: default
   fix-entity-position-desync: true
   load-permissions-yml-before-plugins: true
-  max-joins-per-tick: 5
+  max-joins-per-tick: 3
   region-file-cache-size: 256
   strict-advancement-dimension-check: false
   use-alternative-luck-formula: false
@@ -81,6 +81,11 @@ packet-limiter:
     interval: 7.0
     max-packet-rate: 500.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
+  overrides:
+    ServerboundCommandSuggestionPacket:
+      action: DROP
+      interval: 1.0
+      max-packet-rate: 15.0
   overrides:
     ServerboundPlaceRecipePacket:
       action: DROP
