@@ -58,21 +58,33 @@ chunks:
   auto-save-interval: default
   delay-chunk-unloads-by: 10s
   entity-per-chunk-save-limit:
-    arrow: -1
-    ender_pearl: -1
-    experience_orb: -1
-    fireball: -1
-    small_fireball: -1
-    snowball: -1
+    area_effect_cloud: 8
+    arrow: 16
+    dragon_fireball: 3
+    egg: 8
+    ender_pearl: 8
+    experience_bottle: 3
+    experience_orb: 16
+    eye_of_ender: 8
+    fireball: 8
+    firework_rocket: 8
+    llama_spit: 3
+    potion: 8
+    shulker_bullet: 8
+    small_fireball: 8
+    snowball: 8
+    spectral_arrow: 16
+    trident: 16
+    wither_skull: 4
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 24
-  prevent-moving-into-unloaded-chunks: false
+  max-auto-save-chunks-per-tick: 8
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
-  fix-climbing-bypassing-cramming-rule: false
-  max-entity-collisions: 8
+  fix-climbing-bypassing-cramming-rule: true
+  max-entity-collisions: 4
   only-players-collide: false
 command-blocks:
   force-follow-perm-level: true
@@ -139,37 +151,68 @@ entities:
     hatch-time: default
   spawning:
     all-chunks-are-slime-chunks: false
-    alt-item-despawn-rate:
-      enabled: false
+enabled: true
       items:
-        cobblestone: 300
+        stone: 1200
+        cobblestone: 600
+        deepslate: 1200
+        cobbled_deepslate: 600
+        netherrack: 600
+        crimson_nylium: 600
+        warped_nylium: 600
+        dirt: 600
+        dirt_path: 600
+        rooted_dirt: 600
+        coarse_dirt: 600
+        grass_block: 1200
+        sand: 600
+        red_sand: 600
+        soul_sand: 600
+        soul_soil: 600
+        gravel: 600
+        diorite: 600
+        granite: 600
+        andesite: 600
+        oak_leaves: 600
+        spruce_leaves: 600
+        birch_leaves: 600
+        jungle_leaves: 600
+        acacia_leaves: 600
+        dark_oak_leaves: 600
+        mangrove_leaves: 600
+        kelp: 600
+        bamboo: 600
+        cactus: 600
+        suger_cane: 600
+        scaffolding: 1200
+        ender_pearl: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: default
+    creative-arrow-despawn-rate: 20
     despawn-ranges:
       ambient:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       axolotls:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       creature:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       misc:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       monster:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       underground_water_creature:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
       water_ambient:
-        hard: 64
-        soft: 32
+        hard: 72
+        soft: 30
       water_creature:
-        hard: 128
-        soft: 32
+        hard: 72
+        soft: 30
     disable-mob-spawner-spawn-egg-transformation: false
     duplicate-uuid:
       mode: SAFE_REGEN
@@ -183,7 +226,7 @@ entities:
     - SleepingZ
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: default
+    non-player-arrow-despawn-rate: 20
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
@@ -231,7 +274,7 @@ environment:
     enabled: true
   generate-flat-bedrock: false
   nether-ceiling-void-damage-height: disabled
-  optimize-explosions: false
+  optimize-explosions: true
   portal-create-radius: 16
   portal-search-radius: 128
   portal-search-vanilla-dimension-scaling: true
@@ -239,7 +282,7 @@ environment:
     enabled: true
     find-already-discovered:
       loot-tables: default
-      villager-trade: false
+      villager-trade: true
   water-over-lava-flow-speed: 5
 feature-seeds:
   generate-random-seeds-for-all: false
@@ -280,10 +323,10 @@ misc:
   disable-sprint-interruption-on-attack: false
   light-queue-size: 20
   max-leash-distance: 10.0
-  redstone-implementation: VANILLA
+  redstone-implementation: ALTERNATE_CURRENT
   shield-blocking-delay: 5
   show-sign-click-command-failure-msgs-to-player: false
-  update-pathfinding-on-block-update: true
+  update-pathfinding-on-block-update: false
 scoreboards:
   allow-non-player-entities-on-scoreboards: true
   use-vanilla-world-scoreboard-name-coloring: false
@@ -296,9 +339,9 @@ tick-rates:
     villager:
       validatenearbypoi: -1
   container-update: 1
-  dry-farmland: 1
-  grass-spread: 1
-  mob-spawner: 1
+  dry-farmland: 2
+  grass-spread: 2
+  mob-spawner: 2
   sensor:
     villager:
       secondarypoisensor: 40
