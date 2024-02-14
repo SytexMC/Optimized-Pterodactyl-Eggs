@@ -184,7 +184,7 @@ entities:
         kelp: 600
         bamboo: 600
         cactus: 600
-        suger_cane: 600
+        sugar_cane: 600
         scaffolding: 1200
         ender_pearl: 300
     count-all-mobs-for-spawning: false
