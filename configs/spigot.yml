@@ -133,26 +133,26 @@ world-settings:
       hopper-check: 1
     hopper-amount: 1
     hopper-can-load-chunks: false
-    seed-village: 10387312
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-endcity: 10387313
-    seed-slime: 987234911
-    seed-nether: 30084232
-    seed-mansion: 10387319
-    seed-fossil: 14357921
-    seed-portal: 34222645
-    seed-ancientcity: 20083232
-    seed-trailruins: 83469867
-    seed-trialchambers: 94251327
-    seed-buriedtreasure: 10387320
-    seed-mineshaft: default
+    seed-village: 19603053
+    seed-desert: 39124035
+    seed-igloo: 14488982
+    seed-jungle: 51126304
+    seed-swamp: 91160986
+    seed-monument: 36549086
+    seed-shipwreck: 66544830
+    seed-ocean: 52469792
+    seed-outpost: 70895424
+    seed-endcity: 21004935
+    seed-slime: 39517904
+    seed-nether: 93376486
+    seed-mansion: 25298246
+    seed-fossil: 99194426
+    seed-portal: 24076108
+    seed-ancientcity: 60729450
+    seed-trailruins: 22783850
+    seed-trialchambers: 18094538
+    seed-buriedtreasure: 82760633
+    seed-mineshaft: 96139623
     seed-stronghold: default
     max-tnt-per-tick: 100
     max-tick-time:
