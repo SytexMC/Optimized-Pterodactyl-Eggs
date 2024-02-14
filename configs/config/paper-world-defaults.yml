@@ -285,7 +285,7 @@ environment:
       villager-trade: true
   water-over-lava-flow-speed: 5
 feature-seeds:
-  generate-random-seeds-for-all: false
+  generate-random-seeds-for-all: true
 fishing-time-range:
   maximum: 600
   minimum: 100
@@ -332,8 +332,8 @@ scoreboards:
   use-vanilla-world-scoreboard-name-coloring: false
 spawn:
   allow-using-signs-inside-spawn-protection: false
-  keep-spawn-loaded: true
-  keep-spawn-loaded-range: 10
+  keep-spawn-loaded: false
+  keep-spawn-loaded-range: 3
 tick-rates:
   behavior:
     villager:
