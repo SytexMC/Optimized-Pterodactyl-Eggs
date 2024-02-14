@@ -580,7 +580,7 @@ world-settings:
           damage: 2.0
         attributes:
           max_health: 10.0
-        disable-treasure-searching: false
+        disable-treasure-searching: true
         takes-damage-from-water: false
         naturally-aggressive-to-players-chance: 0.0
         always-drop-exp: false
@@ -1591,7 +1591,7 @@ world-settings:
         exp-dropped-on-death:
           equation: expLevel * 7
           maximum: 100
-        teleport-if-outside-border: false
+        teleport-if-outside-border: true
         teleport-on-nether-ceiling-damage: false
         totem-of-undying-works-in-inventory: false
         fix-stuck-in-portal: false
