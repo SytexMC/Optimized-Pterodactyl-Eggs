@@ -49,28 +49,28 @@ curl -o ${SERVER_JARFILE} ${DOWNLOAD_URL}
 
 if [ ! -f server-icon.png ]; then
     echo -e "Downloading server-icon.png"
-    curl -o server-icon.png https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/server-icon.png
+    curl -o server-icon.png https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/server-icon.png
 fi
 
 # server.properties
 
 if [ ! -f server.properties ]; then
 	echo -e "Downloading server.properties"
-    curl -o server.properties https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/server.properties
+    curl -o server.properties https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/server.properties
 fi
 
 # bukkit.yml
 
 if [ ! -f bukkit.yml ]; then
 	echo -e "Downloading bukkit.yml"
-    curl -o bukkit.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/bukkit.yml
+    curl -o bukkit.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/bukkit.yml
 fi
 
 # spigot.yml
 
 if [ ! -f spigot.yml ]; then
 	echo -e "Downloading spigot.yml"
-    curl -o spigot.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/spigot.yml
+    curl -o spigot.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/spigot.yml
 fi
 
 # config
@@ -84,28 +84,28 @@ fi
 
 if [ ! -f config/paper-global.yml ]; then
 	echo -e "Downloading paper-global.yml"
-    curl -o config/paper-global.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/config/paper-global.yml
+    curl -o config/paper-global.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/config/paper-global.yml
 fi
 
 # paper-world-defaults.yml
 
 if [ ! -f config/paper-world-defaults.yml ]; then
 	echo -e "Downloading paper-world-defaults.yml"
-    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/config/paper-world-defaults.yml
+    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/config/paper-world-defaults.yml
 fi
 
 # pufferfish.yml
 
 if [ ! -f pufferfish.yml ]; then
 	echo -e "Downloading pufferfish.yml"
-    curl -o pufferfish.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/pufferfish.yml
+    curl -o pufferfish.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/pufferfish.yml
 fi
 
 # purpur.yml
 
 if [ ! -f purpur.yml ]; then
 	echo -e "Downloading purpur.yml"
-    curl -o purpur.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/purpur.yml
+    curl -o purpur.yml https://raw.githubusercontent.com/sytexmc/optimized-pterodactyl-eggs/main/configs/Java/purpur.yml
 fi
 
 echo -e "Installation Finished"
